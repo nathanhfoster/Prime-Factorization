@@ -1,7 +1,2 @@
-﻿  main.cpp
-c:\users\natei\onedrive\technical\programming\recursive prime factorization automation\recursive prime factorization automation\watch.hpp(19): warning C4244: 'return': conversion from '__int64' to 'double', possible loss of data
-  c:\users\natei\onedrive\technical\programming\recursive prime factorization automation\recursive prime factorization automation\watch.hpp(17): note: while compiling class template member function 'double Watch<std::chrono::microseconds,std::chrono::high_resolution_clock,double>::elapsed(void)'
-  c:\users\natei\onedrive\technical\programming\recursive prime factorization automation\recursive prime factorization automation\main.cpp(34): note: see reference to function template instantiation 'double Watch<std::chrono::microseconds,std::chrono::high_resolution_clock,double>::elapsed(void)' being compiled
-  c:\users\natei\onedrive\technical\programming\recursive prime factorization automation\recursive prime factorization automation\main.cpp(19): note: see reference to class template instantiation 'Watch<std::chrono::microseconds,std::chrono::high_resolution_clock,double>' being compiled
-  Recursive Prime Factorization Automation.vcxproj -> C:\Users\natei\OneDrive\Technical\Programming\Recursive Prime Factorization Automation\Debug\Recursive Prime Factorization Automation.exe
-  Recursive Prime Factorization Automation.vcxproj -> C:\Users\natei\OneDrive\Technical\Programming\Recursive Prime Factorization Automation\Debug\Recursive Prime Factorization Automation.pdb (Partial PDB)
+﻿  Skipping... (no relevant changes detected)
+  main.cpp

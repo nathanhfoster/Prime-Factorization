@@ -1,7 +1,9 @@
 #ifndef WATCH_HPP
 #define WATCH_HPP
 #include<iostream>
-#include <thread> /* Sleep */
+#include <chrono> // Time
+#include <thread> // Sleep
+
 template<typename TimeT = std::chrono::microseconds,
 	typename ClockT = std::chrono::high_resolution_clock,
 	typename DurationT = double>

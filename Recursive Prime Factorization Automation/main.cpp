@@ -4,8 +4,6 @@
 #include "Watch.hpp"
 #include <stdio.h> 
 #include <time.h>
-#include <chrono> // Time
-#include <thread> // Sleep
 #include <iomanip>
 
 void primeFactorization(int n, int factor);
@@ -36,17 +34,16 @@ void main(){
 	system("PAUSE");
 }
 
-void primeFactorization(int n, int factor = 2)
-{
+void primeFactorization(int n, int factor = 2){
 	// Base case
 	if (n < 2)
 		return;
-	// If factor divies number evenly
+	// If factor divides the number evenly
 	if (n % factor == 0){
 		primeFactorization(n / factor, factor);
 		std::cout << factor << "\t";
 	}
-	// Else increment the factor
+	// Else increment and then return the factor
 	else
-		primeFactorization(n, factor + 1);
+		primeFactorization(n, ++factor);
 }
